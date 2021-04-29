@@ -41,6 +41,8 @@ https://github.com/internetwache/GitTools
 
 https://github.com/rizinorg/cutter
 
+https://github.com/volatilityfoundation/volatility
+
 ### scripts/snippets
 
 ```SHELL
