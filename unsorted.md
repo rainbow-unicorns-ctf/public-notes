@@ -43,6 +43,11 @@ https://github.com/rizinorg/cutter
 
 https://github.com/volatilityfoundation/volatility
 
+### libs/packages
+
+[ impacket ]( https://github.com/SecureAuthCorp/impacket/releases )
+* collection of Python classes for working with network protocols
+
 ### scripts/snippets
 
 ```SHELL
