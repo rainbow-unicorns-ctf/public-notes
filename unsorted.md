@@ -72,3 +72,8 @@ volatility -f flounder-pc-memdump.elf --profile=Win7SP1x64 filescan
 volatility -f flounder-pc-memdump.elf --profile=Win7SP1x64 filescan | grep resume
 volatility --profile=Win7SP1x64 dumpfiles -Q 0x000000001e1f6200 --dump-dir=. -f flounder-pc-memdump.elf
 ```
+
+```SHELL
+# install/update gh CLI
+curl -L https://github.com/cli/cli/releases/latest | grep -Po "/cli.*amd64\.deb" | xargs -I{} curl -L https://github.com{} -o /tmp/gh.deb && sudo apt install /tmp/gh.deb
+```
