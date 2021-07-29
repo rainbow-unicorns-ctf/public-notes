@@ -3,7 +3,13 @@
 ## Information Gathering
 
 ### scan for dirs
+
+#### wfuzz
     wfuzz -z file,/usr/share/wfuzz/wordlist/general/common.txt --hc 404 -R2 http://138.68.182.108:32660/FUZZ
+
+#### dirsearch
+    https://github.com/maurosoria/dirsearch
+    
 
 ### scan for files
     wfuzz -z file,/usr/share/wfuzz/wordlist/general/common.txt --hc 404 -R2 http://138.68.182.108:32660/administrat/include/FUZZ.php
