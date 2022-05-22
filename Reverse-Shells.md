@@ -1,5 +1,8 @@
 # Reverse-Shells
 
+https://thedarksource.com/reverse-shell-cheat-sheet/
+https://highon.coffee/blog/reverse-shell-cheat-sheet/
+
 ## Bash
 
 ### target
